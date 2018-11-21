@@ -1,3 +1,5 @@
+require 'pry'
+
 def game_hash
 {
   :home => {
@@ -147,4 +149,12 @@ def team_colors(team_name)
     end
   end
   colors
+end
+
+def team_names
+  array = []
+  game_hash.each do |key, value|
+    binding.pry
+  end
+
 end
