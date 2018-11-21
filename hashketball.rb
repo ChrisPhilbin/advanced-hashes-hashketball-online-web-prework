@@ -154,7 +154,8 @@ end
 def team_names
   array = []
   game_hash.each do |key, value|
-    binding.pry
+    key.each do |key1, value1|
+      array << key1[:team_name
+    end]
   end
-
 end
